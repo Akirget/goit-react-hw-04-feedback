@@ -1,0 +1,31 @@
+.div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  min-height: 50px;
+  font-weight: bold;
+
+  text-align: center;
+  padding: 1px 5px;
+  color: #000000;
+
+  border-radius: 4px;
+
+  background: #8496ff;
+
+  border: 1px solid #000000;
+}
+
+.button:hover {
+  border: none;
+  background: #444444;
+  color: #8496ff;
+}
